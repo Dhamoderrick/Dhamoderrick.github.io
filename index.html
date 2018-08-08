@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Railway reservation</title>
+	<link rel="shortcut icon" type="image/png" href="icon.png">
+	<link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+    <style type="text/css">
+    	body{
+    		background-color: #bcbcbc
+    	}
+    	.form {
+              margin: auto;
+              width: 40%;
+              padding: 10px;
+         }
+         .table{
+         	margin: auto;
+            width: 40%;
+            padding: 10px;
+         }
+         header{
+         	text-align: center;
+         	font-family: 'Arvo', serif;
+         	font-size: 20px
+         }
+         .img{
+           	 position: absolute;
+           	 margin-top: -65px;
+           	 margin-left: 610px;
+         }
+         .pi{
+         	position: absolute;
+         	margin-top: -20px;
+         	margin-left: 260px;
+         }
+         .submit{
+         	position: absolute;
+         	margin-left: 660px;
+         }
+         .reset{
+         	position: absolute;
+         	margin-left: 750px;
+         }
+    </style>
+</head>
+<body>
+	<!--header-->
+	<header>
+		<h4>Railway reservation form</h4>
+		<div class="img">
+			<img src="icon.png" alt="logo">
+		</div>
+	</header>
+	<!--form-->
+	<div class="form">
+		<form>
+		<b>Firstname:</b>
+		<input type="text" name="Firstname">
+		<span></span>
+		<b>Lastname:</b>
+		<input type="text" name="lastname">
+		<br><br>
+		<b>Date:</b>
+		<input type="Date" name="date">
+		<div class="pi">
+			<b>Class:</b>
+		    <select name="Class">
+			    <option>AC First Clas</option>
+			    <option>AC 2-Tier</option>
+			    <option>AC 3-Tier</option>
+			    <option>First class</option>
+			    <option>Sleeper</option>
+			    <option>Second sitting</option>
+		    </select>
+		</div>
+		<br><br>
+		<b>Train name:</b>
+		<input type="text"name="train name">
+		<br><br>
+		<b>Ticket type:</b>
+		<input type="radio" name="type" value="e-ticket" checked="">e-ticket
+		<span></span>
+		<input type="radio" name="type" value="i-ticket">i-ticket <br>
+		<br>
+		<b>Quota:</b>
+		<input type="radio" name="type1"value="General">General
+		<span></span>
+		<input type="radio" name="type1" value="Physicaly challenged">Physically challenged
+	</form>
+	<!--Passenger details-->
+	</div>
+		<br>
+		<br>
+		<hr>
+		<div class="table">
+			<b>Passenger details</b>
+		<br><br>
+		<table>
+			<tr>
+				<th>S.NO</th>
+				<span></span>
+				<th>Name</th>
+				<th>Age</th>
+				<th>Sex</th>
+				<th>Berth prefernce</th>
+				<th><span></span>Senior citizen</th>
+			</tr>
+			<tr>
+				<td>1.</td>
+				<td>
+					<input type="text" name="">
+				</td>
+				<td>
+					<input type="text" name="age" maxlength="3"
+					size="3">
+				</td>
+				<td>
+					<select>
+						<option>Male</option>
+						<option>Female</option>
+					</select>
+				</td>
+				<td>
+					<select name="Class">
+			            <option>AC First Clas</option>
+			            <option>AC 2-Tier</option>
+			            <option>AC 3-Tier</option>
+			            <option>First class</option>
+			            <option>Sleeper</option>
+			            <option>Second sitting</option>
+		            </select>
+				</td>
+				<td>
+					 <input type="checkbox" name="" value="senior citizen">
+				</td>
+			</tr>
+			<tr>
+				<td>2.</td>
+				<td>
+					<input type="text" name="">
+				</td>
+				<td>
+					<input type="text" name="age" maxlength="3" size="3">
+				</td>
+				<td>
+					<select>
+						<option>Male</option>
+						<option>Female</option>
+					</select>
+				</td>
+				<td>
+					<select name="Class">
+			            <option>AC First Clas</option>
+			            <option>AC 2-Tier</option>
+			            <option>AC 3-Tier</option>
+			            <option>First class</option>
+			            <option>Sleeper</option>
+			            <option>Second sitting</option>
+		            </select>
+				</td>
+				<td>
+					<input type="checkbox" name="" value="senior citizen">
+				</td>
+			</tr>
+			
+			<tr>
+				<td>3.</td>
+				<td>
+					<input type="text" name="">
+				</td>
+				<td>
+					<input type="text" name="age" maxlength="3" size="3">
+				</td>
+				<td>
+					<select>
+						<option>Male</option>
+						<option>Female</option>
+					</select>
+				</td>
+				<td>
+					<select name="Class">
+			            <option>AC First Clas</option>
+			            <option>AC 2-Tier</option>
+			            <option>AC 3-Tier</option>
+			            <option>First class</option>
+			            <option>Sleeper</option>
+			            <option>Second sitting</option>
+		            </select>
+				</td>
+				<td>
+					<input type="checkbox" name="" value="senior citizen">
+				</td>
+			</tr>
+		
+			<tr>
+				<td>4.</td>
+				<td>
+					<input type="text" name="">
+				</td>
+				<td>
+					<input type="text" name="age" maxlength="3" size="3">
+				</td>
+				<td>
+					<select>
+						<option>Male</option>
+						<option>Female</option>
+					</select>
+				</td>
+				<td>
+					<select name="Class">
+			            <option>AC First Clas</option>
+			            <option>AC 2-Tier</option>
+			            <option>AC 3-Tier</option>
+			            <option>First class</option>
+			            <option>Sleeper</option>
+			            <option>Second sitting</option>
+		            </select>
+				</td>
+				<td>
+					<input type="checkbox" name="" value="senior citizen">
+				</td>
+			</tr>
+			
+			<tr>
+				<td>5.</td>
+				<td>
+					<input type="text" name="">
+				</td>
+				<td>
+					<input type="text" name="age" maxlength="3" size="3">
+				</td>
+				<td>
+					<select>
+						<option>Male</option>
+						<option>Female</option>
+					</select>
+				</td>
+				<td>
+					<select name="Class">
+			            <option>AC First Clas</option>
+			            <option>AC 2-Tier</option>
+			            <option>AC 3-Tier</option>
+			            <option>First class</option>
+			            <option>Sleeper</option>
+			            <option>Second sitting</option>
+		            </select>
+				</td>
+				<td>
+					<input type="checkbox" name="" value="senior citizen">
+				</td>
+			</tr>
+		</table>
+		</div>
+		<div class="submit">
+			<button>Submit</button>
+		</div>
+		<div class="reset">
+			<button type="reset" value="Reset">Reset</button>
+		</div>
+		
+		
+		</body>
+</html>
